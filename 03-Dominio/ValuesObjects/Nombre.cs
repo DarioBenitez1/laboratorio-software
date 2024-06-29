@@ -15,12 +15,13 @@ namespace _03_Dominio.ValuesObjects
             DebeContenerNombre(valor);
             this.valor = valor;
         }
-        private void DebeContenerNombre(string valor)
+        public string DebeContenerNombre(string valor)
         {
             if (valor == "")
             {
                 throw new Exception("El nombre no debe ser vacio");
             }
+            return this.valor;
         }
 
         public string Valor()

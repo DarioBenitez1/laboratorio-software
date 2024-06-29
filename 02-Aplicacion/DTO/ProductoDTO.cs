@@ -12,14 +12,16 @@ namespace _02_Aplicacion.DTO
         private  string nombre; 
         private int precio;
         private int cantidad;
+        private string estado;
 
 
-        public ProductoDTO(Guid id, string nombre, int precio, int cantidad)
+        public ProductoDTO(Guid id, string nombre, int precio, int cantidad, string estado)
         {
             this.id = id;
             this.nombre = nombre;
             this.precio = precio;
             this.cantidad = cantidad;
+            this.estado = estado;
         }
 
         public Guid Id()
@@ -38,6 +40,10 @@ namespace _02_Aplicacion.DTO
         public int Cantidad()
         {
             return cantidad;
+        }
+        public string Estado()
+        {
+            return estado;
         }
     }
 }

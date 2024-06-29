@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.34931.43
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tp", "tp\tp.csproj", "{9C95C2FB-A504-4498-994D-5BC8AC5055A2}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-Dominio", "03-Dominio\03-Dominio.csproj", "{03F589D9-6045-4D5C-B4AE-2B64D7440E7F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-PersistenciaDatos", "04-PersistenciaDatos\04-PersistenciaDatos.csproj", "{0DFC7E65-EBE5-4001-83BD-279FAE31F8E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pruebas_Unitarias_2", "Pruebas_Unitarias_2\Pruebas_Unitarias_2.csproj", "{055A61E2-33A3-4E5B-9F0A-A7698CFDB92A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0DFC7E65-EBE5-4001-83BD-279FAE31F8E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DFC7E65-EBE5-4001-83BD-279FAE31F8E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DFC7E65-EBE5-4001-83BD-279FAE31F8E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055A61E2-33A3-4E5B-9F0A-A7698CFDB92A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055A61E2-33A3-4E5B-9F0A-A7698CFDB92A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055A61E2-33A3-4E5B-9F0A-A7698CFDB92A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055A61E2-33A3-4E5B-9F0A-A7698CFDB92A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

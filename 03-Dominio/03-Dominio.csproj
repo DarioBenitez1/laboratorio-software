@@ -63,6 +63,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorio\ProductoRepo.cs" />
     <Compile Include="ValuesObjects\Cantidad.cs" />
+    <Compile Include="ValuesObjects\Estado.cs" />
     <Compile Include="ValuesObjects\Identificador.cs" />
     <Compile Include="ValuesObjects\Nombre.cs" />
     <Compile Include="ValuesObjects\Precio.cs" />

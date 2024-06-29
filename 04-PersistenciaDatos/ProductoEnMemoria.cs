@@ -33,7 +33,7 @@ namespace _04_PersistenciaDatos
             var product = productos.FirstOrDefault(p => p.Id() == producto.Id());
             if (product != null)
             {
-                product.Actualizar(product.Id(),producto.Nombre(), producto.Precio(), producto.Cantidad());
+                product.Actualizar(product.Id(),producto.Nombre(), producto.Precio(), producto.Cantidad(), producto.Estado());
 
             }
         }

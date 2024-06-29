@@ -14,11 +14,11 @@ namespace _01_Presentacion
     {
         static void Main(string[] args)
         {
-            ProductoDTO verdura = new ProductoDTO(Guid.NewGuid(), "zapallo", 12, 8);
-            ProductoDTO verdura2 = new ProductoDTO(Guid.NewGuid(), "zanahoria", 12, 8);
-            ProductoDTO verdura3 = new ProductoDTO(Guid.NewGuid(), "cebolla", 10, 7);
+            ProductoDTO verdura = new ProductoDTO(Guid.NewGuid(), "zapallo", 12, 8, "pepe");
+            ProductoDTO verdura2 = new ProductoDTO(Guid.NewGuid(), "zanahoria", 12, 8, "activo");
+            ProductoDTO verdura3 = new ProductoDTO(Guid.NewGuid(), "cebolla", 10, 7, "activo");
 
-            ProductoEnMemoria repositorio = new ProductoEnMemoria();
+            ProductoRepositorioMySQL repositorio = new ProductoRepositorioMySQL();
 
             CrearProducto casoDeUsoCrear = new CrearProducto(repositorio);
             casoDeUsoCrear.Ejecutar(verdura);
@@ -29,7 +29,7 @@ namespace _01_Presentacion
             Console.WriteLine("Productos disponibles:");
             foreach (ProductoDTO productos in product)
             {
-                Console.WriteLine($"{productos.Nombre()}, {productos.Precio()}, {productos.Cantidad()}");
+                Console.WriteLine($"{productos.Nombre()}, {productos.Precio()}, {productos.Cantidad()}, {productos.Estado()} ");
             }
             Console.WriteLine("fin");
 
@@ -37,7 +37,8 @@ namespace _01_Presentacion
             casoDeUsoBorrar.Ejecutar(verdura3);
 
             ActualizarProducto casoDeUsoActualizar = new ActualizarProducto(repositorio);
-            ProductoDTO productoActualizadoDto = new ProductoDTO(verdura2.Id(), "zanahoria actualizado", 15, 10);
+            ProductoDTO productoActualizadoDto = new ProductoDTO(verdura2.Id(), "zanahoria actualizado", 15, 10, "INACTIVO");
+
             casoDeUsoActualizar.Ejecutar(productoActualizadoDto);
             List<ProductoDTO> producto = casoDeUsoLista.Ejecutar();
             Console.WriteLine("Productos disponibles:");

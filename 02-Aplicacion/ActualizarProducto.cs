@@ -23,7 +23,8 @@ namespace _02_Aplicacion
                 productoDTO.Id(),
                 productoDTO.Nombre(),
                 productoDTO.Precio(),
-                productoDTO.Cantidad())
+                productoDTO.Cantidad(),
+                productoDTO.Estado())
                 );
 
         }
