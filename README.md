@@ -22,7 +22,7 @@ Este Trabajo practico tiene como fin aplicar los conocimientos adquiridos en tod
  1. descargar Visual studio 2019 o superior
  2. descargar .net
  3. abrir Terminal
- 4. realizar un comando "git clone https://github.com/DarioBenitez1/Tulian-no-se-enoje.git" para descargar el repositorio desde el VS. 
+ 4. realizar un comando "git clone https://github.com/DarioBenitez1/laboratorio-software" para descargar el repositorio desde el VS. 
     
 
 ### Funcionalidades
