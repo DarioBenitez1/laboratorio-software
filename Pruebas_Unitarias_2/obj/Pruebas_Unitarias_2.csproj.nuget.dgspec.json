@@ -9,6 +9,17 @@
         "projectUniqueName": "C:\\Users\\usuario\\source\\repos\\laboratorio-software\\02-Aplicacion\\02-Aplicacion.csproj",
         "projectName": "02-Aplicacion",
         "projectPath": "C:\\Users\\usuario\\source\\repos\\laboratorio-software\\02-Aplicacion\\02-Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
+        "projectStyle": "PackagesConfig",
+        "configFilePaths": [
+          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net48": {
             "projectReferences": {
@@ -20,7 +31,8 @@
               }
             }
           }
-        }
+        },
+        "packagesConfigPath": "C:\\Users\\usuario\\source\\repos\\laboratorio-software\\02-Aplicacion\\packages.config"
       },
       "frameworks": {
         "net48": {}
@@ -31,11 +43,23 @@
         "projectUniqueName": "C:\\Users\\usuario\\source\\repos\\laboratorio-software\\03-Dominio\\03-Dominio.csproj",
         "projectName": "03-Dominio",
         "projectPath": "C:\\Users\\usuario\\source\\repos\\laboratorio-software\\03-Dominio\\03-Dominio.csproj",
+        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
+        "projectStyle": "PackagesConfig",
+        "configFilePaths": [
+          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net48": {
             "projectReferences": {}
           }
-        }
+        },
+        "packagesConfigPath": "C:\\Users\\usuario\\source\\repos\\laboratorio-software\\03-Dominio\\packages.config"
       },
       "frameworks": {
         "net48": {}
@@ -46,6 +70,17 @@
         "projectUniqueName": "C:\\Users\\usuario\\source\\repos\\laboratorio-software\\04-PersistenciaDatos\\04-PersistenciaDatos.csproj",
         "projectName": "04-PersistenciaDatos",
         "projectPath": "C:\\Users\\usuario\\source\\repos\\laboratorio-software\\04-PersistenciaDatos\\04-PersistenciaDatos.csproj",
+        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
+        "projectStyle": "PackagesConfig",
+        "configFilePaths": [
+          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net48": {
             "projectReferences": {
@@ -54,7 +89,8 @@
               }
             }
           }
-        }
+        },
+        "packagesConfigPath": "C:\\Users\\usuario\\source\\repos\\laboratorio-software\\04-PersistenciaDatos\\packages.config"
       },
       "frameworks": {
         "net48": {}
